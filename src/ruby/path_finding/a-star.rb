@@ -144,6 +144,10 @@ init			7
 input		"map1.txt"
 a_star
 
+for i in 0..$path.size-1
+	p $path[i].x.to_s + ", " + $path[i].y.to_s
+end
+
 for i in 0..$n-1
 	msg = ""
 	for j in 0..$n-1
